@@ -1,7 +1,7 @@
 <font size="6">**Oyster Image Classification using Transfer Learning**</font>
 
 ## **Project Overview**
-This notebook documents the complete workflow for a binary image classification task assigned as part of the **Computer Vision Intern** selection process at **Darun Research Lab**. The objective is to classify oyster-related images into two categories: **Oyster Images** and **Oyster Spat Images**, using a pretrained deep learning model and to report standard evaluation metrics.
+This notebook documents the complete workflow for a binary image classification. The objective is to classify oyster-related images into two categories: **Oyster Images** and **Oyster Spat Images**, using a pretrained deep learning model and to report standard evaluation metrics.
 ***
 <br>
 
