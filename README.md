@@ -2,6 +2,7 @@
 
 ## **Project Overview**
 This notebook documents the complete workflow for a binary image classification. The objective is to classify oyster-related images into two categories: **Oyster Images** and **Oyster Spat Images**, using a pretrained deep learning model and to report standard evaluation metrics.
+
 <br>
 
 ## **Objectives**
@@ -9,6 +10,7 @@ This notebook documents the complete workflow for a binary image classification.
 - Evaluate the model using **Accuracy**, **Macro-averaged Precision**, **Recall**, and **F1-score**.
 - Visualize performance using a **Confusion Matrix** and **ROC Curve**.
 - Apply appropriate techniques to **prevent overfitting** and justify model generalization.
+
 <br>
 
 ## **Dataset Description**
@@ -22,7 +24,7 @@ No predefined train/validation/test split was provided. Therefore, the dataset w
 - **15% Test set**
 
 A fixed random seed was used to ensure **reproducibility**.
-***
+
 <br>
 
 ## **Methodology**
@@ -41,7 +43,7 @@ A **ResNet-18** model pretrained on ImageNet was selected due to its balance bet
 - **Early stopping** with a patience of **5 epochs** based on validation loss
 
 These strategies help mitigate overfitting and improve generalization.
-***
+
 <br>
 
 ## **Evaluation Metrics**
@@ -54,7 +56,7 @@ The following metrics were computed on the **held-out test set**:
 - **ROC Curve and AUC**
 
 Macro-averaging was used to ensure equal contribution from both classes, regardless of class distribution.
-***
+
 <br>
 
 ## **Overfitting Analysis**
