@@ -3,6 +3,7 @@
 ## **Project Overview**
 This notebook documents the complete workflow for a binary image classification. The objective is to classify oyster-related images into two categories: **Oyster Images** and **Oyster Spat Images**, using a pretrained deep learning model and to report standard evaluation metrics.
 ***
+<br>
 
 ## **Objectives**
 - Train a binary image classification model using a **pretrained CNN architecture**.
@@ -10,6 +11,7 @@ This notebook documents the complete workflow for a binary image classification.
 - Visualize performance using a **Confusion Matrix** and **ROC Curve**.
 - Apply appropriate techniques to **prevent overfitting** and justify model generalization.
 ***
+<br>
 
 ## **Dataset Description**
 The dataset was obtained from Kaggle and contains **1,357 images** organized into two folders:
@@ -23,6 +25,7 @@ No predefined train/validation/test split was provided. Therefore, the dataset w
 
 A fixed random seed was used to ensure **reproducibility**.
 ***
+<br>
 
 ## **Methodology**
 ### Model Architecture
